@@ -16,4 +16,13 @@ const removeObject=()=>{
     count--;
 }
 
+
+const clearStorage=()=>{
+    localStorage.clear();
+    count=0;
+}
+
+//localStorage.getItem("key name"); //for get any item from local storage
+//localStorage.length; //to see the length of the local storage
+
 //to see please just inpect and go to application then open local storage(left side of tab);
