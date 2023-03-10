@@ -16,6 +16,11 @@ const removeObject=()=>{
     count--;
 }
 
+const getAGE=()=>{
+    const user1=localStorage.getItem("user1");
+    const user1Object = JSON.parse(user1);
+    console.log(user1Object.age);
+}
 
 const clearStorage=()=>{
     localStorage.clear();
